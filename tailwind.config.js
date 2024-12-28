@@ -67,4 +67,9 @@ module.exports = {
   plugins: [
     require('daisyui'),
   ],
+  backgroundImage: {
+    'bg': "url('/assets/img/org.png')",
+    'footer-texture': "url('/img/footer-texture.png')",
+  }
+  
 }

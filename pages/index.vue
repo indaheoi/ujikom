@@ -1,37 +1,19 @@
 <template>
 <body class="bg-white">
   <header>
-    <nav class="p-6">
-      <div class="flex justify-between items-center">
-        <h1 class="pr-6 border-r-2 text-2xl font-bold text-gray-500">saunatime</h1>
-        <div class="flex justify-between flex-grow">
-          <div class="flex ml-6 items-center">
-            <!-- <span>
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-4 cursor-pointer text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-              </svg>
-            </span>
-            <input class="outline-none text-sm flex-grow bg-gray-100" type="text" placeholder="Search saunas in Finland…" /> -->
-          </div>
-          <div class="md:flex space-x-6 hidden">
-            <span class="text-gray-500 text-md">+ Add your sauna</span>
-            <span class="text-gray-500 text-md">Sign up</span>
-            <span class="text-gray-500 text-md">Log in</span>
-          </div>
-        </div>
-      </div>
-    </nav>
     <!-- Section Hero -->
-    <div class="container mx-auto bg-gray-400 h-96 rounded-md flex items-center">
+      <div class="bg-cover2 mb-5 rounded-md flex items-center">
+        <img src="assets/css/img/background.png">
+      </div>
+      <div class="bg-cover w-[400px] h-[400px] h-96">
+        <img src="assets/css/img/org.png">
+      </div>
       <div class="sm:ml-20 text-gray-50 text-center sm:text-left">
-        <h1 class="text-5xl font-bold mb-4">
-          Book saunas <br />
-          everywhere.
-        </h1>
+        <h1 class="text-5xl font-bold mb-4"> Book saunas <br /> everywhere.</h1>
         <p class="text-lg inline-block sm:block">The largest online community to rent saunas in Finland.</p>
         <button class="mt-8 px-4 py-2 bg-gray-600 rounded">Browse saunas</button>
       </div>
-    </div>
+    
   </header>
   <main class="py-16 container mx-auto px-6 md:px-0">
     <section>
