@@ -1,122 +1,236 @@
 <template>
 <body class="bg-white">
-  <header>
-    <!-- Section Hero -->
-      <div class="bg-cover2 mb-5 rounded-md flex items-center">
-        <img src="assets/css/img/background.png">
+  <div class="bg-container bottom-[20px]"></div>
+  <div class="background-container bottom-[200px]">
+    <div class="flex items-center justify-center py-7">
+        <div class="relative flex w-full max-w-[60rem] flex-row rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+          <div class="relative m-0 w-2/5 shrink-0 overflow-hidden rounded-xl rounded-r-none bg-white bg-clip-border text-gray-700">
+            <img
+              src="assets/css/img/kepalasekolah.png"
+              class="h-full w-full object-cover"/>
+          </div>
+          <div class="p-6">
+            <h6 class="text-xl mb-4 block font-sans font-semibold uppercase leading-relaxed tracking-normal text-pink-500 antialiased">
+              Sambutan Kepala Sekolah
+            </h6>
+            <h4 class="mb-2 block font-sans text-3xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+              Kurniawan, S.Pd, M.Pd.
+            </h4>
+            <p class="mb-8 block font-sans text-base font-normal leading-relaxed text-gray-700 antialiased">
+              Like so many organizations these days, Autodesk is a company in
+              transition. It was until recently a traditional boxed software company
+              selling licenses. Yet its own business model disruption is only part of
+              the story
+            </p>
+            <a class="inline-block" href="#">
+              <NuxtLink to="/sambutan">
+                <button
+                class="flex select-none items-center gap-2 rounded-lg py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-pink-500 transition-all hover:bg-pink-500/10 active:bg-pink-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                type="button">
+                Selengkapnya
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="2"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                  class="h-4 w-4">
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"></path>
+                </svg>
+              </button>
+              </NuxtLink>
+              
+            </a>
+          </div>
+        </div>
       </div>
-      <div class="bg-cover w-[400px] h-[400px] h-96">
-        <img src="assets/css/img/org.png">
-      </div>
-      <div class="sm:ml-20 text-gray-50 text-center sm:text-left">
-        <h1 class="text-5xl font-bold mb-4"> Book saunas <br /> everywhere.</h1>
-        <p class="text-lg inline-block sm:block">The largest online community to rent saunas in Finland.</p>
-        <button class="mt-8 px-4 py-2 bg-gray-600 rounded">Browse saunas</button>
-      </div>
+  </div>
+
+
+  
+
+  <!-- visi misi -->
+  <section class="py-16 bg-gray-100">
+    <section class="py-12">
+    <div class="container mx-auto px-4 text-center">
+        <h2 class="text-3xl font-bold text-gray-800 mb-6">Sejarah SMK Negeri 4 Tasikmalaya</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-8">
+
+            <!-- Card Sejarah -->
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <img src="https://via.placeholder.com/1200x800" alt="Sejarah SMK Negeri 4" class="w-full h-64 object-cover object-center">
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4">Pendirian dan Perjuangan SMK Negeri 4</h3>
+                    <p class="text-gray-600 text-sm">
+                        Sejalan dengan Program Pemerintah di bidang pendidikan Menengah Kejuruan pada saat itu, yakni pemerataan akses pendidikan, serta tingginya permintaan dari masyarakat di Kecamatan Purbaratu Kota Tasikmalaya untuk adanya SMK Negeri, maka beberapa tokoh masyarakat dan pejabat pemerintah mengusulkan kepada Pemerintah Kota Tasikmalaya dan Provinsi Jawa Barat agar mendirikan SMK Negeri di wilayah tersebut.
+                    </p>
+                    <p class="text-gray-600 text-sm mt-4">
+                        Setelah perjuangan panjang dan kerjasama berbagai pihak, terutama dari Dinas Pendidikan Kota Tasikmalaya, Alhamdulillah pada tahun pelajaran 2010/2011, SMK Negeri 4 Tasikmalaya resmi berdiri. Pada awalnya, SMK Negeri 4 membuka Kompetensi Keahlian Teknik Komputer dan Jaringan dengan jumlah peserta didik baru sebanyak 44 orang. 
+                    </p>
+                    <p class="text-gray-600 text-sm mt-4">
+                        Pada tahap awal, proses belajar mengajar dilaksanakan di SMP Negeri 17 Kota Tasikmalaya, dengan SMK Negeri 2 Kota Tasikmalaya sebagai sekolah induk. Tenaga pendidik dan kependidikan pada awalnya juga dibantu oleh kedua sekolah tersebut. 
+                    </p>
+                    <p class="text-gray-600 text-sm mt-4">
+                        Pada tahun 2012, SMK Negeri 4 Tasikmalaya memperoleh Surat Izin Pendirian berdasarkan keputusan Kepala Badan Pelayanan Perizinan Terpadu Kota Tasikmalaya No. 420/9/SK-BPPT/2012 pada tanggal 6 Februari 2012, yang mengukuhkan eksistensi sekolah ini.
+                    </p>
+                    
+                    <btn>
+                      <NuxtLink to="/profil/sejarah.vue"></NuxtLink>
+                      lihat selengkapnya</btn       >
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+    <!-- Visi -->
+    <div class="text-center mb-16">
+      <h2 class="text-3xl font-semibold text-primary mb-4">Visi & Misi SMK Negeri 4 Tasikmalaya</h2>
+      
+  <h2 class="text-3xl font-semibold text-center text-gray-800 mb-6">Visi</h2>
+      <p class="text-lg text-gray-700 max-w-3xl mx-auto">
+        "TERWUJUDNYA LULUSAN YANG CERDAS, AKTIF, KOMPETITIF, ADAPTIF, DAN PRODUKTIF BERLANDASKAN IMAN DAN TAKWA<br>(CAKAP BERIMTAK)"
+      </p>
+    </div>
     
-  </header>
-  <main class="py-16 container mx-auto px-6 md:px-0">
-    <section>
-      <h1 class="text-3xl font-bold text-gray-600 mb-10">Explore exotic locations in Finland</h1>
-      <div class="grid sm:grid-cols-3 gap-4 grid-cols-2">
-        <div>
-          <div class="bg-gray-300 h-44"></div>
-          <h3 class="text-lg font-semibold text-gray-500 mt-2">Saunas in <span class="text-gray-700">Helsinki</span></h3>
-        </div>
-        <div>
-          <div class="bg-gray-300 h-44"></div>
-          <h3 class="text-lg font-semibold text-gray-500 mt-2">Saunas in <span class="text-gray-700">Rovaniemi</span></h3>
-        </div>
-        <div>
-          <div class="bg-gray-300 h-44"></div>
-          <h3 class="text-lg font-semibold text-gray-500 mt-2">Saunas in <span class="text-gray-700">Ruka</span></h3>
-        </div>
-      </div>
-      <hr class="w-40 my-14 border-4 rounded-md sm:mx-0 mx-auto" />
-    </section>
-    <section>
-      <h1 class="inline-block text-gray-600 font-bold text-3xl">
-        The holy sauna ritual <br />
-        (or how does Saunatime work).
-      </h1>
+    <!-- Misi -->
 
-      <div class="grid grid-cols-3 gap-4 mt-10">
-        <div>
-          <h3 class="text-lg font-semibold text-gray-500 mt-2">1. Browse and book</h3>
-          <p class="text text-gray-400">Start by searching for a location. Once you find a sauna you like, simply check the availability, book it, and make a secure payment right away.</p>
-        </div>
-        <div>
-          <h3 class="text-lg font-semibold text-gray-500 mt-2">2. Have a great bath</h3>
-          <p class="text text-gray-400">Meet your host on the date you chose and enjoy the home sauna experience. We'll handle the payment to the host after your experience.</p>
-        </div>
-        <div>
-          <h3 class="text-lg font-semibold text-gray-500 mt-2">3. Review the host</h3>
-          <p class="text text-gray-400">If you enjoyed the experience, let others know by giving a review to your sauna host. This way others will know where to go.</p>
-        </div>
-      </div>
-    </section>
-    <div class="mt-14">
-      <p>Ps. You can also become a Saunatime host in few clicks!</p>
-    </div>
-  </main>
-  <footer class="mb-6 px-6 md:px-0">
-    <div class="grid gap-5 grid-cols-5 container mx-auto space-x-6">
+    <section class=" p-6">
+  <h2 class="text-3xl font-semibold text-center text-gray-800 mb-6">Misi</h2>
+  <div class="flex flex-wrap justify-center gap-6">
+    <!-- Misi 1 -->
+    <div class="bg-white p-6 rounded-lg shadow-sm max-w-xs flex items-center">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-blue-500 mr-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 14l3 3L22 7"></path>
+      </svg>
       <div>
-        <h1 class="text-2xl font-bold text-gray-500">saunatime</h1>
-        <p>The largest online community to rent saunas in Finland.</p>
-        <spa>© Sharetribe 2017.</spa>
-      </div>
-      <div class="pt-2">
-        <ul>
-          <li>Add your sauna</li>
-          <li>About us</li>
-          <li>F.A.Q</li>
-          <li>Help</li>
-          <li>Contact</li>
-        </ul>
-      </div>
-      <div class="pt-2">
-        <ul>
-          <li>Helsinki</li>
-          <li>Espoo</li>
-          <li>Ruka</li>
-          <li>Tampere</li>
-          <li>Turku</li>
-        </ul>
-      </div>
-      <div class="pt-2">
-        <ul>
-          <li>Kuopio</li>
-          <li>Mikkeli</li>
-          <li>Espoo</li>
-          <li>Vantaa</li>
-          <li>Ahvenanmaa</li>
-        </ul>
-      </div>
-      <div class="pt-2">
-        <div>
-          <div class="flex space-x-4 text-gray-500 text-center">
-            <span>
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-            </span>
-            <span>
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-            </span>
-            <span>
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 8l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2M5 3a2 2 0 00-2 2v1c0 8.284 6.716 15 15 15h1a2 2 0 002-2v-3.28a1 1 0 00-.684-.948l-4.493-1.498a1 1 0 00-1.21.502l-1.13 2.257a11.042 11.042 0 01-5.516-5.517l2.257-1.128a1 1 0 00.502-1.21L9.228 3.683A1 1 0 008.279 3H5z" /></svg>
-            </span>
-          </div>
-          <div class="flex mt-12">
-            <p>Privacy & Cookies</p>
-            <p>Terms of use</p>
-          </div>
-        </div>
+        <h3 class="text-lg font-medium text-gray-700">1</h3>
+        <p class="text-gray-500 text-sm">Menyiapkan Sumber Daya Manusia yang cerdas dan kompeten baik hardskill maupun softskill.</p>
       </div>
     </div>
 
-  </footer>
+    <!-- Misi 2 -->
+    <div class="bg-white p-6 rounded-lg shadow-sm max-w-xs flex items-center">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-green-500 mr-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6M12 9v6"></path>
+      </svg>
+      <div>
+        <h3 class="text-lg font-medium text-gray-700">2</h3>
+        <p class="text-gray-500 text-sm">Meningkatkan dan mengembangkan aktifitas serta kreatifitas seluruh warga sekolah dalam berbagai kegiatan positif.</p>
+      </div>
+    </div>
+
+    <!-- Misi 3 -->
+    <div class="bg-white p-6 rounded-lg shadow-sm max-w-xs flex items-center">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-yellow-500 mr-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6M12 9v6"></path>
+      </svg>
+      <div>
+        <h3 class="text-lg font-medium text-gray-700">3</h3>
+        <p class="text-gray-500 text-sm">Mewujudkan manajemen pengelolaan yang efektif, efesien, transparan, akuntabel dan layanan prima.</p>
+      </div>
+    </div>
+
+    <!-- Misi 4 -->
+    <div class="bg-white p-6 rounded-lg shadow-sm max-w-xs flex items-center">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-red-500 mr-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12l5 5L20 7"></path>
+      </svg>
+      <div>
+        <h3 class="text-lg font-medium text-gray-700">4</h3>
+        <p class="text-gray-500 text-sm">Menumbuhkan dan mengembangkan potensi dan kemampuan Sumber Daya Manusia yang berdaya saing tinggi melalui berbagai kegiatan akademik maupun non akademik.</p>
+      </div>
+    </div>
+
+    <!-- Misi 5 -->
+    <div class="bg-white p-6 rounded-lg shadow-sm max-w-xs flex items-center">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-indigo-500 mr-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3"></path>
+      </svg>
+      <div>
+        <h3 class="text-lg font-medium text-gray-700">5</h3>
+        <p class="text-gray-500 text-sm">Menyelenggarakan berbagai program kegiatan dalam upaya meningkatkan Sumber Daya Manusia yang mampu menyesuaikan dengan perkembangan.</p>
+      </div>
+    </div>
+
+    <!-- Misi 6 -->
+    <div class="bg-white p-6 rounded-lg shadow-sm max-w-xs flex items-center">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-pink-500 mr-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path>
+      </svg>
+      <div>
+        <h3 class="text-lg font-medium text-gray-700">6</h3>
+        <p class="text-gray-500 text-sm">Mengembangkan sarana prasarana dan lingkungan sekolah yang menyenangkan sebagai wadah menumbuhkembangkan daya kreasi dan inovasi untuk menghasilkan produk teknologi tepat guna.</p>
+      </div>
+    </div>
+
+    <!-- Misi 7 -->
+    <div class="bg-white p-6 rounded-lg shadow-sm max-w-xs flex items-center">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-teal-500 mr-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v16h16V4H4z"></path>
+      </svg>
+      <div>
+        <h3 class="text-lg font-medium text-gray-700">7</h3>
+        <p class="text-gray-500 text-sm">Membangun jiwa wirausaha yang handal melalui pembelajaran Teaching Factory (TEFA) dan Kelas Industri.</p>
+      </div>
+    </div>
+
+    <!-- Misi 8 -->
+    <div class="bg-white p-6 rounded-lg shadow-sm max-w-xs flex items-center">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-gray-500 mr-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6M12 9v6"></path>
+      </svg>
+      <div>
+        <h3 class="text-lg font-medium text-gray-700">8</h3>
+        <p class="text-gray-500 text-sm">Menjalin dan mengembangkan kemitraan dengan Industri dan Dunia Kerja (IDUKA) serta lembaga lainnya yang relevan.</p>
+      </div>
+    </div>
+
+    <!-- Misi 9 -->
+    <div class="bg-white p-6 rounded-lg shadow-sm max-w-xs flex items-center">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-orange-500 mr-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12l5 5L20 7"></path>
+      </svg>
+      <div>
+        <h3 class="text-lg font-medium text-gray-700">9</h3>
+        <p class="text-gray-500 text-sm">Menanamkan dan membudayakan sikap dan perilaku yang baik pada aktivitas di sekolah maupun dalam kehidupan sehari-hari.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+</section>
+
+
+
 </body>
 </template>
+
+<style scoped>
+.background-container {
+  background-image: url('/assets/css/img/bggrey.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.bg-container {
+  background-image: url('/assets/css/img/bghome.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+}
+</style>
+

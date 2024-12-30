@@ -1,10 +1,11 @@
 <template>
-    <div>
+    <div class="container-fluid p-0">
 
     <Header />
     <Nav />
-    <Footer />
     <slot />
+    <Footer />
+
   
     </div>
   </template>
