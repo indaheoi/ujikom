@@ -1,13 +1,14 @@
 <template>
 
-<body class="bg-gray-50">
-  <h1 class="font-sans font-bold text-2xl md:text-3xl leading-none mt-24 mb-4 text-center text-gray-700">
-    <span class="text-black">Berita Terbaru</span>
+<body>
+  <div class="bg-gray-300">
+  <h1 class="font-sans font-bold text-2xl md:text-3xl py-5 text-center text-gray-700">
+    <span class="text-darkgray">Berita Terbaru</span>
   </h1>
   
 <!-- berita 1 -->
   <div class="mx-auto px-4 py-4 max-w-xl my-auto">
-    <div class="bg-gray-50 md:bg-white md:shadow-xl rounded-lg mb-6 ">
+    <div class=" md:bg-white md:shadow-xl rounded-lg mb-6overflow-hidden shadow hover:scale-105 transform transition-all duration-500 ">
       <a target="_blank" rel="noreferrer noopener" href="https://radartasik.id/2023/10/12/smkn-4-tasikmalaya-koneksikan-iduka-dengan-pencari-kerja">
         <div class="md:flex-shrink-0">
           <img src="assets/css/img/iduka.jpg"
@@ -41,7 +42,7 @@
 
   <!-- berita 2 -->
   <div class="mx-auto px-4 py-4 max-w-xl my-auto">
-    <div class="bg-gray-50 md:bg-white md:shadow-xl rounded-lg mb-6 ">
+    <div class=" md:bg-white md:shadow-xl rounded-lg mb-6 overflow-hidden shadow hover:scale-105 transform transition-all duration-500">
       <a target="_blank" rel="noreferrer noopener" href="https://radartasik.id/2023/03/02/siswa-smkn-4-tasikmalaya-adu-inovasi-dan-kreativitas-di-expo-creanova/">
         <div class="md:flex-shrink-0">
           <img src="assets/css/img/expocreannova.jpg"
@@ -74,7 +75,7 @@
   </div>
    <!-- berita 3 -->
    <div class="mx-auto px-4 py-4 max-w-xl my-auto">
-    <div class="bg-gray-50 md:bg-white md:shadow-xl rounded-lg mb-6 ">
+    <div class=" md:bg-white md:shadow-xl rounded-lg mb-6 overflow-hidden shadow hover:scale-105 transform transition-all duration-500">
       <a target="_blank" rel="noreferrer noopener" href="https://jabar.tribunnews.com/2023/03/02/sinergi-bagi-negeri-dam-kerjasama-dengan-smkn-4-tasikmalaya-terapkan-ktbsm-sepeda-motor-astra-honda">
         <div class="md:flex-shrink-0">
           <img src="assets/css/img/kerjasama.jpg"
@@ -107,7 +108,7 @@
 
    <!-- berita 4 -->
    <div class="mx-auto px-4 py-4 max-w-xl my-auto">
-    <div class="bg-gray-50 md:bg-white md:shadow-xl rounded-lg mb-6 ">
+    <div class=" md:bg-white md:shadow-xl rounded-lg mb-6 overflow-hidden shadow hover:scale-105 transform transition-all duration-500">
       <a target="_blank" rel="noreferrer noopener" href="https://radartasik.id/2023/10/12/smkn-4-tasikmalaya-koneksikan-iduka-dengan-pencari-kerja">
         <div class="md:flex-shrink-0">
           <img src="assets/css/img/honda.jpeg"
@@ -137,7 +138,7 @@
       </div>
     </div>
   </div>
-
+</div>
   
 
 

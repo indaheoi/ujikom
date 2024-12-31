@@ -1,4 +1,14 @@
 <template>
+    <div class="bg-base-200 py-4 first-line:first">
+  <div class="container mx-auto">
+              <div class="marquee overflow-hidden whitespace-nowrap">
+                <p class="text-lg font-medium inline-block text-primary animate-scroll">
+                    "TERWUJUDNYA LULUSAN YANG CERDAS, AKTIF, KOMPETITIF, ADAPTIF, DAN PRODUKTIF BERLANDASKAN IMAN DAN TAKWA (CAKAP BERIMTAK)"
+                </p>
+              </div>
+              <div class="text-sm text-dark relative text-right " v-html="formattedDateTime"></div>
+            </div>
+          </div>
       <div class="header relative">
             <div class="logo w-[70px] h-[70px] ms-32 relative top-8">
                 <img src="/assets/css/img/logo.png">
@@ -7,6 +17,7 @@
                     <h1 class="text-2xl poppins-semibold font-semibold">Tasikmalaya</h1>
                 </div>
             </div>
+            <!-- icon sosmed -->
             <div class="sosmed flex gap-3 ms-[500px] relative bottom-3">
                 <button class="fb btn sm:md:lg: btn-circle">
                     <svg class="w-[30px] h-[30px] fill-[#8e8e8e]" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
@@ -54,10 +65,11 @@
                 <button class="li btn sm:md:lg: btn-circle">
                     <svg class="w-[30px] h-[30px] fill-[#8e8e8e]" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
 
-<!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-<path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path>
+                    <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                    <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2
+                    96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path>
 
-</svg>
+                    </svg>
                 </button>
             </div>
       
@@ -65,3 +77,62 @@
 
     
 </template>
+
+<style>
+@keyframes scroll {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 15s linear infinite;
+}
+</style>
+
+
+<script>
+export default {
+name: "MarqueeSection",
+  data() {
+    return {
+      currentDateTime: new Date(),
+    };
+  },
+  computed: {
+    formattedDateTime() {
+      const days = [
+        "Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu",
+      ];
+      const months = [
+        "Januari", "Februari", "Maret", "April", "Mei", "Juni",
+        "Juli", "Agustus", "September", "Oktober", "November", "Desember",
+      ];
+      const day = days[this.currentDateTime.getDay()];
+      const date = this.currentDateTime.getDate();
+      const month = months[this.currentDateTime.getMonth()];
+      const year = this.currentDateTime.getFullYear();
+      const time = this.currentDateTime.toLocaleTimeString("id-ID", {
+        hour: "2-digit",
+        minute: "2-digit",
+        second: "2-digit",
+      });
+
+      return `${day}, ${date} ${month} ${year} - ${time}`;
+    },
+  },
+  mounted() {
+    this.updateTime();
+  },
+  methods: {
+    updateTime() {
+      setInterval(() => {
+        this.currentDateTime = new Date();
+      }, 1000);
+    },
+  },
+};
+</script>

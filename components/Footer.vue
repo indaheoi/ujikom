@@ -1,5 +1,5 @@
 <template>
-    <footer class="mb-6 px-6 md:px-0 flex flex-col flex-grow">
+    <footer class="relative mb-6 px-6 md:px-0 flex flex-col flex-grow">
     <div class="grid gap-5 grid-cols-5 container mx-auto space-x-6">
       <div>
         <h1 class="text-2xl font-bold text-gray-500">saunatime</h1>

@@ -1,5 +1,6 @@
 <template>
-<body class="bg-white">
+<body>
+
   <div class="bg-container bottom-[20px]"></div>
   <div class="background-container bottom-[200px]">
     <div class="flex items-center justify-center py-7">
@@ -9,6 +10,8 @@
               src="assets/css/img/kepalasekolah.png"
               class="h-full w-full object-cover"/>
           </div>
+
+          
           <div class="p-6">
             <h6 class="text-xl mb-4 block font-sans font-semibold uppercase leading-relaxed tracking-normal text-pink-500 antialiased">
               Sambutan Kepala Sekolah
@@ -43,7 +46,6 @@
                 </svg>
               </button>
               </NuxtLink>
-              
             </a>
           </div>
         </div>
@@ -54,7 +56,7 @@
   
 
   <!-- visi misi -->
-  <section class="py-16 bg-gray-100">
+  <section class="py-16">
     <section class="py-12">
     <div class="container mx-auto px-4 text-center">
         <h2 class="text-3xl font-bold text-gray-800 mb-6">Sejarah SMK Negeri 4 Tasikmalaya</h2>
@@ -204,13 +206,6 @@
     </div>
   </div>
 </section>
-
-
-
-
-
-
-
 </section>
 
 
@@ -220,7 +215,7 @@
 
 <style scoped>
 .background-container {
-  background-image: url('/assets/css/img/bggrey.jpg');
+  background-image: url('/assets/css/img/gtw.png');
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -232,5 +227,11 @@
   background-position: center;
   height: 70vh;
 }
+
+
 </style>
+
+<script>
+
+</script>
 
