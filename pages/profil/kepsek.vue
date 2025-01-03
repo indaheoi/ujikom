@@ -1,7 +1,7 @@
 <template>
     <div class="bg-blue-100">
-    <div class="avatar py-10">
-  <div class="w-60 rounded-xl shadow-inner hover:scale-105 transform transition-all duration-500">
+    <div class="avatar py-10 before:">
+  <div class="w-60 rounded-xl shadow-inner hover:scale-105 transform transition-all duration-500 ms-[550px]">
     <img src="/assets/css/img/guru/kepsek.jpg"/>
   </div>
 </div>

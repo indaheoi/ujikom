@@ -1,5 +1,5 @@
 <template>
-   <div class="navbar group relative cursor-pointer bg-base-100 left-[500px]">
+   <div class="navbar group relative ms-4 cursor-pointer items-end justify-end m-0">
   <div class="flex-none">
     <ul class="menu-hover menu relative menu-horizontal px-1 gap-4">
       <li>

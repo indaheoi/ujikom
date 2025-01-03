@@ -1,5 +1,5 @@
 <template>
-    <section class="py-12 bg-pink-100">
+    <section class="py-12 bg">
     <div class="container mx-auto px-4 text-center">
         <h2 class="text-3xl font-bold text-gray-800 mb-6">Konsentrasi Keahlian SMK Negeri 4 Tasikmalaya</h2>
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -52,3 +52,13 @@
             </div>
             </section>
 </template>
+
+<style>
+.bg{
+    background-image: url('/assets/css/img/background/pattern.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+</style>

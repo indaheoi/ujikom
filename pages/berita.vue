@@ -45,7 +45,7 @@
     <div class=" md:bg-white md:shadow-xl rounded-lg mb-6 overflow-hidden shadow hover:scale-105 transform transition-all duration-500">
       <a target="_blank" rel="noreferrer noopener" href="https://radartasik.id/2023/03/02/siswa-smkn-4-tasikmalaya-adu-inovasi-dan-kreativitas-di-expo-creanova/">
         <div class="md:flex-shrink-0">
-          <img src="/assets/css/img/berita/expocreannova.jpg"
+          <img src="assets/css/img/berita/expocreannova.jpg"
             class="object-cover h-full w-full rounded-lg rounded-b-none">
         </div>
       </a>
