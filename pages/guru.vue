@@ -1,5 +1,6 @@
 <template>
     <!-- component -->
+<div class="bg">
 <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-4 py-12">
     <div class="text-center pb-12">
         <h2 class="text-base font-bold text-indigo-600">
@@ -66,4 +67,16 @@
         </div>
     </div>
 </section>
+</div>
 </template>
+
+
+<style>
+.bg {
+    background-image: url('/assets/css/img/background/pattern.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    }
+
+</style>

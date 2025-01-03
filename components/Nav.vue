@@ -1,7 +1,7 @@
 <template>
-   <div class="navbar relative bg-base-100 first-line:first:">
-  <div class="relative flex-none left-[500px]">
-    <ul class="menu relative menu-horizontal px-1 gap-4">
+   <div class="navbar group relative cursor-pointer bg-base-100 left-[500px]">
+  <div class="flex-none">
+    <ul class="menu-hover menu relative menu-horizontal px-1 gap-4">
       <li>
         <details>
           <summary><NuxtLink to="/">Beranda</NuxtLink></summary>
@@ -15,7 +15,6 @@
             <li> <NuxtLink to="/profil/sejarah"><a>Sejarah</a> </NuxtLink></li>
             <li> <NuxtLink to="/profil/visimisi"><a>Visi & Misi</a> </NuxtLink></li>
             <li> <NuxtLink to="/profil/kepsek"><a>Kepala Sekolah</a> </NuxtLink></li>
-            <li> <NuxtLink to="/profil/stor"><a>Struktur Organisasi</a> </NuxtLink></li>
             <li> <NuxtLink to="/profil/guru"><a>Guru & Staf</a> </NuxtLink></li>
    
           </ul>
@@ -45,11 +44,7 @@
       </li>
       <li>
         <details>
-         
           <summary> <NuxtLink to="/galeri">Galeri</NuxtLink></summary>
-          <ul class="bg-base-100 rounded-t-none p-2">
-            <li> <NuxtLink to="/glry/hal1"><a>Hari Kemerdekaan</a> </NuxtLink></li>
-          </ul>
         </details>
       </li>
       <li>

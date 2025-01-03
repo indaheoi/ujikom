@@ -1,8 +1,8 @@
 <template>
     <div class="bg-blue-100">
     <div class="avatar py-10">
-  <div class="w-60 rounded-xl ms-[650px] shadow-inner hover:scale-105 transform transition-all duration-500">
-    <img src="/assets/css/img/kepsek.jpg"/>
+  <div class="w-60 rounded-xl shadow-inner hover:scale-105 transform transition-all duration-500">
+    <img src="/assets/css/img/guru/kepsek.jpg"/>
   </div>
 </div>
 <div class="flex flex-col">

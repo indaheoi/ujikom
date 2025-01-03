@@ -11,7 +11,7 @@
     <div class=" md:bg-white md:shadow-xl rounded-lg mb-6overflow-hidden shadow hover:scale-105 transform transition-all duration-500 ">
       <a target="_blank" rel="noreferrer noopener" href="https://radartasik.id/2023/10/12/smkn-4-tasikmalaya-koneksikan-iduka-dengan-pencari-kerja">
         <div class="md:flex-shrink-0">
-          <img src="assets/css/img/iduka.jpg"
+          <img src="/assets/css/img/berita/iduka.jpg"
             class="object-cover h-full w-full rounded-lg rounded-b-none">
         </div>
       </a>
@@ -45,7 +45,7 @@
     <div class=" md:bg-white md:shadow-xl rounded-lg mb-6 overflow-hidden shadow hover:scale-105 transform transition-all duration-500">
       <a target="_blank" rel="noreferrer noopener" href="https://radartasik.id/2023/03/02/siswa-smkn-4-tasikmalaya-adu-inovasi-dan-kreativitas-di-expo-creanova/">
         <div class="md:flex-shrink-0">
-          <img src="assets/css/img/expocreannova.jpg"
+          <img src="/assets/css/img/berita/expocreannova.jpg"
             class="object-cover h-full w-full rounded-lg rounded-b-none">
         </div>
       </a>
@@ -78,7 +78,7 @@
     <div class=" md:bg-white md:shadow-xl rounded-lg mb-6 overflow-hidden shadow hover:scale-105 transform transition-all duration-500">
       <a target="_blank" rel="noreferrer noopener" href="https://jabar.tribunnews.com/2023/03/02/sinergi-bagi-negeri-dam-kerjasama-dengan-smkn-4-tasikmalaya-terapkan-ktbsm-sepeda-motor-astra-honda">
         <div class="md:flex-shrink-0">
-          <img src="assets/css/img/kerjasama.jpg"
+          <img src="/assets/css/img/berita/kerjasama.jpg"
             class="object-cover h-full w-full rounded-lg rounded-b-none">
         </div>
       </a>
@@ -111,7 +111,7 @@
     <div class=" md:bg-white md:shadow-xl rounded-lg mb-6 overflow-hidden shadow hover:scale-105 transform transition-all duration-500">
       <a target="_blank" rel="noreferrer noopener" href="https://radartasik.id/2023/10/12/smkn-4-tasikmalaya-koneksikan-iduka-dengan-pencari-kerja">
         <div class="md:flex-shrink-0">
-          <img src="assets/css/img/honda.jpeg"
+          <img src="/assets/css/img/berita/honda.jpeg"
             class="object-cover h-full w-full rounded-lg rounded-b-none">
         </div>
       </a>
